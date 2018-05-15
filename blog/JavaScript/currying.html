@@ -7,8 +7,8 @@
     <meta name="description" content="xinxingyu">
     <link rel="icon" href="/blog/icon.jpg">
     
-    <link rel="preload" href="/blog/assets/css/8.styles.602f7c2a.css" as="style"><link rel="preload" href="/blog/assets/js/app.1978fb31.js" as="script"><link rel="preload" href="/blog/assets/js/0.63f7bd9a.js" as="script"><link rel="prefetch" href="/blog/assets/js/5.bcd437a3.js"><link rel="prefetch" href="/blog/assets/js/1.de5cb742.js"><link rel="prefetch" href="/blog/assets/js/2.80cae7d3.js"><link rel="prefetch" href="/blog/assets/js/3.921d09bd.js"><link rel="prefetch" href="/blog/assets/js/4.7509076c.js"><link rel="prefetch" href="/blog/assets/js/6.7ee5764a.js"><link rel="prefetch" href="/blog/assets/js/7.f4870591.js">
-    <link rel="stylesheet" href="/blog/assets/css/8.styles.602f7c2a.css">
+    <link rel="preload" href="/blog/assets/css/0.styles.624d1cfa.css" as="style"><link rel="preload" href="/blog/assets/js/app.0758d4e5.js" as="script"><link rel="preload" href="/blog/assets/js/2.ce7e5a7d.js" as="script"><link rel="prefetch" href="/blog/assets/js/6.5908bcba.js"><link rel="prefetch" href="/blog/assets/js/1.b9c21c42.js"><link rel="prefetch" href="/blog/assets/js/3.07ed6bde.js"><link rel="prefetch" href="/blog/assets/js/4.4df26e78.js"><link rel="prefetch" href="/blog/assets/js/5.49fea018.js"><link rel="prefetch" href="/blog/assets/js/7.052b3d54.js"><link rel="prefetch" href="/blog/assets/js/8.52141f22.js"><link rel="prefetch" href="/blog/assets/js/9.00e9efe4.js"><link rel="prefetch" href="/blog/assets/js/10.80eb18d7.js"><link rel="prefetch" href="/blog/assets/js/11.95d667b1.js"><link rel="prefetch" href="/blog/assets/js/12.1aec46cd.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.624d1cfa.css">
   </head>
   <body>
     <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/blog/" class="home-link router-link-active"><!----><span class="site-name">
@@ -35,7 +35,7 @@
 </code></pre><p></p><p>上面的代码，需要注意的是 storedArgs = slice.call(arguments, 1) 这段代码的意思是把fn之外的参数存储起来（我们第一次传个curry的那个5），然后我们调用这个经过curry处理过后的函数时，他会把我们新传的参数和原来我们传的那个5结合组成新的参数数组进行处理[var args = storedArgs.concat(newArgs)]，具体处理的代码是fn.apply(null, args)。</p><p>当我们发现正在调用一个函数，并且传递的大部分参数都是相同的，那么该函数使用curry化是一个很好的方案。可以通过将一个curry化，从而动态产生一个新的函数，这个新的函数会保存重复的参数（因此不必每次都传递这些参数），并且还会使用预填充原始函数所期望的完整参数列表。</p><h2 id="作用"><a href="#作用" aria-hidden="true" class="header-anchor">#</a> 作用</h2><ol><li><p>参数复用</p><p>如上面的例子。</p></li><li><p>提前返回</p><p>上面的方法有什么问题呢？很显然，我们每次使用addEvent为元素添加事件的时候，(eg. IE6/IE7)都会走一遍if...else if ...，其实只要一次判定就可以了，怎么做？–柯里化。改为下面这样子的代码：</p><p>初始addEvent的执行其实值实现了部分的应用（只有一次的if...else if...判定），而剩余的参数应用都是其返回函数实现的，典型的柯里化。</p></li></ol></div><!----><div class="content page-nav"><p class="inner"><span class="prev">
         ← <a href="/blog/blog/JavaScript/DesignPattern/Singleton.html" class="prev">
           Singleton
-        </a></span><!----></p></div><div class="bsa-cpc-wrapper"><div class="bsa-cpc"></div></div></div></div></div>
-    <script src="/blog/assets/js/0.63f7bd9a.js" defer></script><script src="/blog/assets/js/app.1978fb31.js" defer></script>
+        </a></span><!----></p></div></div></div></div>
+    <script src="/blog/assets/js/2.ce7e5a7d.js" defer></script><script src="/blog/assets/js/app.0758d4e5.js" defer></script>
   </body>
 </html>

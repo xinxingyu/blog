@@ -21,79 +21,99 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.1.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "fe38a3169c8dde6956c3d80878e3b4ef"
+    "revision": "c0256c44131c3d7a4adedce63d9301fb"
   },
   {
     "url": "about/index.html",
-    "revision": "92564ce2e1ff5bfb37eca51309b62864"
+    "revision": "e3ef992daee23d990b854d1378d08401"
   },
   {
-    "url": "assets/css/8.styles.602f7c2a.css",
-    "revision": "b139790093f0a0cc4f3b46babcf1f14b"
+    "url": "assets/css/0.styles.624d1cfa.css",
+    "revision": "bbb9d9688b66c82b5981864d272168eb"
   },
   {
     "url": "assets/img/search.83621669.svg",
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/0.63f7bd9a.js",
-    "revision": "c4f2f68cc58162b8a36236616396a245"
+    "url": "assets/js/1.b9c21c42.js",
+    "revision": "27151880dcbf80ac8d3237394ea95792"
   },
   {
-    "url": "assets/js/1.de5cb742.js",
-    "revision": "a0df71f02a7a2069761a8de57e702bd2"
+    "url": "assets/js/10.80eb18d7.js",
+    "revision": "c86a0a9c97fdc4d825510ab3f0abef24"
   },
   {
-    "url": "assets/js/2.80cae7d3.js",
-    "revision": "04b5dea3c5e6693586ee46f3b0ca8d6e"
+    "url": "assets/js/11.95d667b1.js",
+    "revision": "34724b86529a4e24211df238915c49a9"
   },
   {
-    "url": "assets/js/3.921d09bd.js",
-    "revision": "a9e075d25e174b18d4867beee16f80e9"
+    "url": "assets/js/12.1aec46cd.js",
+    "revision": "8d52d33a07a70bf88162aa0b4962dae0"
   },
   {
-    "url": "assets/js/4.7509076c.js",
-    "revision": "8277de01f19eff1d108b070f5035a385"
+    "url": "assets/js/2.ce7e5a7d.js",
+    "revision": "b810c7268d9e48452105b1ac220dacb7"
   },
   {
-    "url": "assets/js/5.bcd437a3.js",
-    "revision": "3eeec166b03e465a0ad3d69dcc973fc5"
+    "url": "assets/js/3.07ed6bde.js",
+    "revision": "b54b9d5c7b8269206a772ca0ef20f1ab"
   },
   {
-    "url": "assets/js/6.7ee5764a.js",
-    "revision": "e9e0a61a0bdd485a35f63900a4fe0c4d"
+    "url": "assets/js/4.4df26e78.js",
+    "revision": "9c812f5bf8b4169d05d6cf14021a66c7"
   },
   {
-    "url": "assets/js/7.f4870591.js",
-    "revision": "1cb3cf708618041907f7afe2032603b8"
+    "url": "assets/js/5.49fea018.js",
+    "revision": "f5a142570b4e8ba39877e8bf286c4967"
   },
   {
-    "url": "assets/js/app.1978fb31.js",
-    "revision": "31e607a21cb272976cbce9a46dd43a12"
+    "url": "assets/js/6.5908bcba.js",
+    "revision": "d982a39583c19c39cfc8efb9f320b37e"
+  },
+  {
+    "url": "assets/js/7.052b3d54.js",
+    "revision": "44b8a1616297702339667f0385d97f8f"
+  },
+  {
+    "url": "assets/js/8.52141f22.js",
+    "revision": "540bf82ae7a48e60b7c8e68eec38217a"
+  },
+  {
+    "url": "assets/js/9.00e9efe4.js",
+    "revision": "dfff1a13fcdd5559b9055337e7ba6c95"
+  },
+  {
+    "url": "assets/js/app.0758d4e5.js",
+    "revision": "8f6a73f761aacfb598c824069007438f"
   },
   {
     "url": "blog/Css/a.html",
-    "revision": "9dd7b89eab3c546f6505ed075efc9f79"
+    "revision": "7b4aef72ba832a4a946deb273450bd7e"
   },
   {
     "url": "blog/Css/index.html",
-    "revision": "a928afcf786d530727b3faa1f9a3cc10"
+    "revision": "f143fa0c4fa72373d27dca932d438168"
+  },
+  {
+    "url": "blog/index.html",
+    "revision": "e1a69cc25aa9cef47f6c11804499f816"
   },
   {
     "url": "blog/JavaScript/currying.html",
-    "revision": "d74098b996c63f9ad7e0412d87b25bbb"
+    "revision": "85ecb1909a03115b5478106cd999acc5"
   },
   {
     "url": "blog/JavaScript/DesignPattern/FactoryPattern.html",
-    "revision": "1727b02d2b4434b0596267bf36521692"
+    "revision": "a4ec2333b01e2084f9b96831c281f005"
   },
   {
     "url": "blog/JavaScript/DesignPattern/Singleton.html",
-    "revision": "8b6e3f034473f6d5dd6df06e66c5cffd"
+    "revision": "2655ae7d30adb23ae4cade694c50d52c"
   },
   {
     "url": "blog/JavaScript/index.html",
-    "revision": "36a4b1077ba9ef46b2692b108e76fdf0"
+    "revision": "733a2505fd944ce7a3b47c7d04a3342a"
   },
   {
     "url": "icon.jpg",
@@ -101,7 +121,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "20bd57f0620b9cbf90d6ae57e337ac8c"
+    "revision": "3037f935a609aec08b8e6cad51820c27"
   },
   {
     "url": "logo.jpeg",
