@@ -21,11 +21,11 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.1.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "45b34f3efc2bc533ca54130608b1f2a8"
+    "revision": "fe38a3169c8dde6956c3d80878e3b4ef"
   },
   {
     "url": "about/index.html",
-    "revision": "6124408e8e3b29ab846686ebfe07833c"
+    "revision": "92564ce2e1ff5bfb37eca51309b62864"
   },
   {
     "url": "assets/css/8.styles.602f7c2a.css",
@@ -68,32 +68,32 @@ self.__precacheManifest = [
     "revision": "1cb3cf708618041907f7afe2032603b8"
   },
   {
-    "url": "assets/js/app.8f70989e.js",
-    "revision": "3c1626004d32d3caddfd806d02997afb"
+    "url": "assets/js/app.1978fb31.js",
+    "revision": "31e607a21cb272976cbce9a46dd43a12"
   },
   {
     "url": "blog/Css/a.html",
-    "revision": "a3e7582c1330174e121cae57bb44c3fd"
+    "revision": "9dd7b89eab3c546f6505ed075efc9f79"
   },
   {
     "url": "blog/Css/index.html",
-    "revision": "e47d36d3f1901ecd069f35689231df13"
+    "revision": "a928afcf786d530727b3faa1f9a3cc10"
   },
   {
     "url": "blog/JavaScript/currying.html",
-    "revision": "5aae18752b00bcc3e40daef2cab268cb"
+    "revision": "d74098b996c63f9ad7e0412d87b25bbb"
   },
   {
     "url": "blog/JavaScript/DesignPattern/FactoryPattern.html",
-    "revision": "3657dd420be571057dbc60e75be07d31"
+    "revision": "1727b02d2b4434b0596267bf36521692"
   },
   {
     "url": "blog/JavaScript/DesignPattern/Singleton.html",
-    "revision": "1f4b0ac3749c2b0b09b6e8c6102c3e22"
+    "revision": "8b6e3f034473f6d5dd6df06e66c5cffd"
   },
   {
     "url": "blog/JavaScript/index.html",
-    "revision": "e5825f04a02ecba255ce87ffa0c0d7ec"
+    "revision": "36a4b1077ba9ef46b2692b108e76fdf0"
   },
   {
     "url": "icon.jpg",
@@ -101,7 +101,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "3259080bc052fa2a73ec3a34938d791b"
+    "revision": "20bd57f0620b9cbf90d6ae57e337ac8c"
   },
   {
     "url": "logo.jpeg",
