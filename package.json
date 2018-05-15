@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/xinxingyu/blog#readme",
   "devDependencies": {
+    "fs": "0.0.1-security",
     "gh-pages": "^1.1.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
