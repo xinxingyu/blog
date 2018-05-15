@@ -21,15 +21,15 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.1.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "c0256c44131c3d7a4adedce63d9301fb"
+    "revision": "ffa13afe1c8cd8b5232a4ae81d51b8e2"
   },
   {
     "url": "about/index.html",
-    "revision": "e3ef992daee23d990b854d1378d08401"
+    "revision": "f1aef6b5749de93679f819ba86ec1b0a"
   },
   {
-    "url": "assets/css/0.styles.624d1cfa.css",
-    "revision": "bbb9d9688b66c82b5981864d272168eb"
+    "url": "assets/css/0.styles.44db5706.css",
+    "revision": "1f579c6e8f09015e72414090301857d0"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "revision": "27151880dcbf80ac8d3237394ea95792"
   },
   {
-    "url": "assets/js/10.80eb18d7.js",
-    "revision": "c86a0a9c97fdc4d825510ab3f0abef24"
+    "url": "assets/js/10.04e8708c.js",
+    "revision": "7f76485c0676e5bfc4bb9a382cc4f531"
   },
   {
     "url": "assets/js/11.95d667b1.js",
@@ -84,36 +84,36 @@ self.__precacheManifest = [
     "revision": "dfff1a13fcdd5559b9055337e7ba6c95"
   },
   {
-    "url": "assets/js/app.0758d4e5.js",
-    "revision": "8f6a73f761aacfb598c824069007438f"
+    "url": "assets/js/app.38336274.js",
+    "revision": "7af9d5ac280248dd3ccdf6788ea32e0d"
   },
   {
     "url": "blog/Css/a.html",
-    "revision": "7b4aef72ba832a4a946deb273450bd7e"
+    "revision": "95ab67820581dd41816c81df2d57f698"
   },
   {
     "url": "blog/Css/index.html",
-    "revision": "f143fa0c4fa72373d27dca932d438168"
+    "revision": "49ff2fc718ecccf54a183dffe1172eb1"
   },
   {
     "url": "blog/index.html",
-    "revision": "e1a69cc25aa9cef47f6c11804499f816"
+    "revision": "6183316364782e0cfdea99b4bdda3538"
   },
   {
     "url": "blog/JavaScript/currying.html",
-    "revision": "85ecb1909a03115b5478106cd999acc5"
+    "revision": "f7a1aac3082eeb24e73cbced4be7d3e2"
   },
   {
     "url": "blog/JavaScript/DesignPattern/FactoryPattern.html",
-    "revision": "a4ec2333b01e2084f9b96831c281f005"
+    "revision": "370da66897d23530eded974798f1e561"
   },
   {
     "url": "blog/JavaScript/DesignPattern/Singleton.html",
-    "revision": "2655ae7d30adb23ae4cade694c50d52c"
+    "revision": "fa26ed25dbe9c64cd10870106419013f"
   },
   {
     "url": "blog/JavaScript/index.html",
-    "revision": "733a2505fd944ce7a3b47c7d04a3342a"
+    "revision": "631c2c933cc597c3c80e42fa3cae3f19"
   },
   {
     "url": "icon.jpg",
@@ -121,7 +121,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "3037f935a609aec08b8e6cad51820c27"
+    "revision": "23e9572d5356c0b054e283784b849785"
   },
   {
     "url": "logo.jpeg",
