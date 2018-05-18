@@ -1,6 +1,7 @@
 ---
 home: true
 layout: homepage
+# pageClass: mm
 # heroImage: /logo.jpeg
 # actionText: Go Blog →
 # actionLink: /blog/JavaScript/

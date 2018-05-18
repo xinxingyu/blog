@@ -28,7 +28,9 @@ const getDirectoryTree = (dir) => {
         let subPath = path.join(dir, file) //拼接为相对路径
         let stats = fs.statSync(subPath) //拿到文件信息对象
 
-        if (stats.isDirectory()) {
+        if (file == 'images') return
+
+        if (stats.isDirectory() ) {
             return getDirectoryTree(subPath)
         }
 
@@ -77,14 +79,27 @@ module.exports = {
             {
                 text: 'blog',
                 link: '/blog/',
-                items: [{
-                        text: 'JavaScript',
-                        link: '/blog/JavaScript/'
+                items: [
+                    {
+                        text: 'Vue',
+                        link: '/blog/Vue/'
                     },
                     {
+                        text: '编译原理',
+                        link: '/blog/CompilersPrinciples/'
+                    },
+                    {
+                        text: 'Frame',
+                        link: '/blog/Frame/'
+                    },
+                    {
+                        text: 'JavaScript',
+                        link: '/blog/JavaScript/'
+                    }, {
                         text: 'Css',
                         link: '/blog/Css/'
                     },
+
                 ]
             },
             {
@@ -94,14 +109,26 @@ module.exports = {
         ],
         sidebar: {
             '/blog/Css/': sidebarConfig('Css'),
-            '/blog/JavaScript/': sidebarConfig('JavaScript')
+            '/blog/JavaScript/': sidebarConfig('JavaScript'),
+            '/blog/Vue/': sidebarConfig('Vue'),
+            '/blog/CompilersPrinciples/': sidebarConfig('CompilersPrinciples'),
+            '/blog/Frame/': sidebarConfig('Frame')
+        },
+    },
+    configureWebpack: {
+        resolve: {
+            alias: {
+                // '@alias': 'path/to/some/dir'
+            }
         }
     }
 }
 
 
+
 // function genSidebarConfig(title) {
-//     return [{
+//     return [
+//         {
 //         title: 'DesignPattern',
 //         // collapsable: false,
 //         children: [
