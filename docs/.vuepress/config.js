@@ -28,7 +28,8 @@ const getDirectoryTree = (dir) => {
         let subPath = path.join(dir, file) //拼接为相对路径
         let stats = fs.statSync(subPath) //拿到文件信息对象
 
-        if (file == 'images') return
+        if (file == 'images' || /^\./.test(file)) return
+
 
         if (stats.isDirectory() ) {
             return getDirectoryTree(subPath)
