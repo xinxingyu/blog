@@ -58,6 +58,9 @@ function render () {
 }
 ```
 
+
+
+
 看看转换成 VNode 以后的情况。
 
 ```js
@@ -66,6 +69,7 @@ function render () {
     data: {
         /* 指令集合数组 */
         directives: [
+
             {
                 /* v-show指令 */
                 rawName: 'v-show',
@@ -89,3 +93,38 @@ function render () {
     ]
 }
 ```
+
+然后我们可以将 VNode 进一步封装一下，可以实现一些产生常用 VNode 的方法。
+
+创建一个空节点
+```js
+function createEmptyVNode () {
+    const node = new VNode();
+    node.text = '';
+    return node;
+}
+```
+
+创建一个文本节点
+```js
+function createTextVNode (val) {
+  return new VNode(undefined, undefined, undefined, String(val));
+}
+```
+
+克隆一个 VNode 节点
+```js
+function cloneVNode (node) {
+    const cloneVnode = new VNode(
+        node.tag,
+        node.data,
+        node.children,
+        node.text,
+        node.elm
+    );
+    return cloneVnode;
+}
+```
+
+总的来说，VNode 就是一个 JavaScript 对象，用 JavaScript 对象的属性来描述当前节点的一些状态，用 VNode 节点的形式来模拟一棵 Virtual DOM 树。...
+
