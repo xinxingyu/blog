@@ -21,11 +21,11 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "44ce063aec5aa4bab7873c02ded9560b"
+    "revision": "41ad2db15e2bf42efcf6bae7a5e00568"
   },
   {
     "url": "about/index.html",
-    "revision": "90b36e56d03fbdc5bb22d6d009f99d7e"
+    "revision": "9a5de65fa99efa2096b07d5512690d8b"
   },
   {
     "url": "assets/css/0.styles.441a5a3f.css",
@@ -84,8 +84,8 @@ self.__precacheManifest = [
     "revision": "584c3d9148a91db6f00c22c0d0eaa83f"
   },
   {
-    "url": "assets/js/19.67886d97.js",
-    "revision": "7683691fd22e66ca0ef9728b699ecaae"
+    "url": "assets/js/19.f0c9ed1e.js",
+    "revision": "62115ed07cf39ad0f1d3985f0e684c54"
   },
   {
     "url": "assets/js/2.26886727.js",
@@ -160,92 +160,92 @@ self.__precacheManifest = [
     "revision": "385b9411aabd6cb441c961349d4f745a"
   },
   {
-    "url": "assets/js/app.e4365c43.js",
-    "revision": "731657bea2b7d0676da2174690c11d47"
+    "url": "assets/js/app.5f8c3c6b.js",
+    "revision": "99c1cb2357958833be8960e47baa1127"
   },
   {
     "url": "blog/CompilersPrinciples/AST/intro.html",
-    "revision": "d2d8b4b5705faf4520e860682b72c9ba"
+    "revision": "671980d1a568bc46ceefee24feed543c"
   },
   {
     "url": "blog/CompilersPrinciples/index.html",
-    "revision": "a1a41cc7929d889825b85e2b70f595c8"
+    "revision": "6d8b7187403fa277fec12361a08a8c8c"
   },
   {
     "url": "blog/Css/a.html",
-    "revision": "c1fcf62c6229170b9f5f27363f73d665"
+    "revision": "e465f5a924d4030a951c6df7369a3f8c"
   },
   {
     "url": "blog/Css/index.html",
-    "revision": "93a6070106d642aa8f8fa948868fd98f"
+    "revision": "8433b9af6feff454d83ff7e6c8fc5f95"
   },
   {
     "url": "blog/Frame/babel/intro.html",
-    "revision": "10b331162caec0216e193837fbd18415"
+    "revision": "50458e4524a017b157e308db40048927"
   },
   {
     "url": "blog/Frame/babel/plugin.html",
-    "revision": "e5185a300c25a78be029dd465dc46cf3"
+    "revision": "cf5499f7bb4d9bc01d87034fb65d9606"
   },
   {
     "url": "blog/Frame/index.html",
-    "revision": "3ec70aeabc16f85309e984c659c217e7"
+    "revision": "4b458e58033a23dbe03caa3863165d01"
   },
   {
     "url": "blog/index.html",
-    "revision": "a339a31b5e5eef3f78c66afa67b94b4c"
+    "revision": "9c0caeb74f35e0adedfd318e0cf9c112"
   },
   {
     "url": "blog/JavaScript/currying.html",
-    "revision": "d503830434b7b8fd3501bda2b0dd52f9"
+    "revision": "a08d1a514e00d04a4eaf696168b463e3"
   },
   {
     "url": "blog/JavaScript/DesignPattern/FactoryPattern.html",
-    "revision": "e76221a6fcdcfcde9bd1d40b1326b67e"
+    "revision": "ad07d304d0a603e77bf4646931dcf4bd"
   },
   {
     "url": "blog/JavaScript/DesignPattern/Singleton.html",
-    "revision": "f5770ac8fb7843e21435ae6f6f4c5cad"
+    "revision": "3bd7308d598b4e55441ef609be9daaba"
   },
   {
     "url": "blog/JavaScript/ES6/async.html",
-    "revision": "41f1e5529ecbae0b3152312ae35e6fd0"
+    "revision": "5ffcd543cb9d5fa96d181aae08120692"
   },
   {
     "url": "blog/JavaScript/index.html",
-    "revision": "d355d87aca0f42abd8577348e0a40a95"
+    "revision": "ed3a7fb154b46d4a4dae6a7d0cdc3570"
   },
   {
     "url": "blog/JavaScript/inherit.html",
-    "revision": "924c22c08daf29a39bc175f0b59a94ac"
+    "revision": "f61acb9e28cf31c15e3f1fff5ffbc688"
   },
   {
     "url": "blog/Vue/dataBinding.html",
-    "revision": "0ba2c472c090f223e19bde561f0a77cf"
+    "revision": "aca0a7becbd6f21c954aa79b22b432da"
   },
   {
     "url": "blog/Vue/index.html",
-    "revision": "3fa20adec98c224365fbcc6c3d0288d3"
+    "revision": "bcca58705b15fb7351c6e2b9184f246d"
   },
   {
     "url": "blog/Vue/mechanism/a-overview.html",
-    "revision": "47b9cec47827e62ad7266aaac4cb895d"
+    "revision": "2041ecb9aa8816cc1899b86e01f9bf3f"
   },
   {
     "url": "blog/Vue/mechanism/b-responsive.html",
-    "revision": "503d509921551b26336d0fe7a5a77757"
+    "revision": "55ff5069820b177cf5fd9856878c6c1a"
   },
   {
     "url": "blog/Vue/mechanism/c-dependencyCollection.html",
-    "revision": "731198212d9a82a2b0f444299cfee043"
+    "revision": "325e88e767765ef5912a5ae20280ce35"
   },
   {
     "url": "blog/Vue/mechanism/d-virtualDOM.html",
-    "revision": "1a4889d43f3b1aeda41148aa5d50658e"
+    "revision": "00d6457e284a3a3110f7b4dae96aa7fe"
   },
   {
     "url": "blog/Vue/mechanism/e-templateCompile.html",
-    "revision": "79e4f35bf8beac4cba983589c87cae26"
+    "revision": "84ffebc12504cba38598fbcac66bf95b"
   },
   {
     "url": "icon.jpg",
@@ -253,7 +253,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "1b7c45eb34770342c7127c0fa3e78a08"
+    "revision": "3fc72f4fa13c47a73b07ae11530f232a"
   },
   {
     "url": "logo.jpeg",
@@ -262,7 +262,6 @@ self.__precacheManifest = [
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
-workbox.skipWaiting();
 addEventListener('message', event => {
   const replyPort = event.ports[0]
   const message = event.data
