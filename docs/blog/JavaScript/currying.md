@@ -1,4 +1,8 @@
-# currying
+---
+pageClass: base
+---
+
+# Currying
 ::: tip
 柯里化
 :::

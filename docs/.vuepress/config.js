@@ -70,6 +70,9 @@ module.exports = {
             href: `/icon.jpg`
         }]
     ],
+    markdown: {
+        lineNumbers: true
+    },
     // theme: 'vue',
     themeConfig: {
         repo: 'xinxingyu',
