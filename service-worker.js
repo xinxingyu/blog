@@ -262,6 +262,7 @@ self.__precacheManifest = [
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+workbox.skipWaiting();
 addEventListener('message', event => {
   const replyPort = event.ports[0]
   const message = event.data
