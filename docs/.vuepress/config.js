@@ -30,8 +30,7 @@ const getDirectoryTree = (dir) => {
 
         if (file == 'images' || /^\./.test(file)) return
 
-
-        if (stats.isDirectory() ) {
+        if (stats.isDirectory()) {
             return getDirectoryTree(subPath)
         }
 
@@ -43,7 +42,6 @@ const getDirectoryTree = (dir) => {
             } else {
                 return path.basename(subPath, '.md')
             }
-
         }
     })
 
@@ -75,6 +73,14 @@ module.exports = {
     },
     // theme: 'vue',
     themeConfig: {
+        serviceWorker: {
+            updatePopup: true // Boolean | Object, 默认值是 undefined.
+            // 如果设置为 true, 默认的文本配置将是:
+            // updatePopup: {
+            //    message: "New content is available.",
+            //    buttonText: "Refresh"
+            // }
+        },
         repo: 'xinxingyu',
         nav: [{
                 text: 'Home',
@@ -83,8 +89,7 @@ module.exports = {
             {
                 text: 'blog',
                 link: '/blog/',
-                items: [
-                    {
+                items: [{
                         text: 'Vue',
                         link: '/blog/Vue/'
                     },
@@ -99,11 +104,15 @@ module.exports = {
                     {
                         text: 'JavaScript',
                         link: '/blog/JavaScript/'
-                    }, {
+                    },
+                    {
                         text: 'Css',
                         link: '/blog/Css/'
                     },
-
+                    {
+                        text: 'Node',
+                        link: '/blog/Node/'
+                    },
                 ]
             },
             {
@@ -116,7 +125,8 @@ module.exports = {
             '/blog/JavaScript/': sidebarConfig('JavaScript'),
             '/blog/Vue/': sidebarConfig('Vue'),
             '/blog/CompilersPrinciples/': sidebarConfig('CompilersPrinciples'),
-            '/blog/Frame/': sidebarConfig('Frame')
+            '/blog/Frame/': sidebarConfig('Frame'),
+            '/blog/Node/': sidebarConfig('Node'),
         },
     },
     configureWebpack: {
@@ -143,5 +153,3 @@ module.exports = {
 //     'currying'
 //     ]
 // }
-
-
